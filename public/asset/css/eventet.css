@@ -1,0 +1,16 @@
+#eventeHeader{
+    position:relative;
+    left: 700px;
+    color: blue;
+    font-size: 80px;
+}
+
+#recentEvent{
+    position: relative;
+    left:100px;
+    border: 2px solid black;
+    padding-left: 400px;
+    padding-top:80px;
+    padding-bottom:80px;
+    font-size: 150px;
+}
