@@ -4,7 +4,7 @@ This project was concepted as showroom of projects done by students as part of d
 Club platform has been fully developed by a group of students led by a few teachers. Inside this group there were programmers and graphic designers who worked in close relation to make this platfrom possible. We hope this page serves to the futur generations of the school.
 
 If you want to run the project you must follow these steps.
-1. Go inside project folder and run `composer install` 
+1. Go inside project folder and run `composer install`  alternatively if you face  an error  try `composer install --ignore-platform-reqs`
 2.  Create a database and add the name of the databse at `.env` file(be aware to rename `env.example` to `.env` at `DB_DATABASE=name`
 3.  Run `php artisan key:generate`
 4.  Run `php artisan migrate`
