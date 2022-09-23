@@ -2,9 +2,9 @@ Welcome to Harry Fultz Club Platform This is the official club section of the Ha
 
 If you want to run the project you must follow these steps.
 
-Go inside project folder and run composer install alternatively if you face an error try composer install --ignore-platform-reqs
-Create a database and add the name of the databse at .env file(be aware to rename env.example to .env at DB_DATABASE=name
-Run php artisan key:generate
-Run php artisan migrate
+Go inside project folder and run `composer install` alternatively if you face an error try `composer install --ignore-platform-reqs`
+Create a database and add the name of the databse at `.env` file(be aware to rename `env.example` to `.env` at `DB_DATABASE=name`
+Run `php artisan key:generate`
+Run `php artisan migrate`
 Run XAMPP
-Run php artisan serve
+Run `php artisan serve`
